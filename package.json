@@ -1,18 +1,20 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "nordhaus-web",
+  "description": "Gatsby based site for Nordhaus AS",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jørgen Abrahamsen",
   "dependencies": {
     "gatsby": "next",
-    "gatsby-plugin-react-helmet": "next",
+    "gatsby-plugin-google-fonts": "0.0.4",
     "gatsby-plugin-manifest": "next",
     "gatsby-plugin-offline": "next",
+    "gatsby-plugin-react-helmet": "next",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-helmet": "^5.2.0"
   },
   "keywords": [
+    "nordhaus",
     "gatsby"
   ],
   "license": "MIT",
@@ -27,6 +29,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/jorabra/nordhaus-web"
   }
 }

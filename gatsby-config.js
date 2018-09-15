@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Nordhaus',
+    subtitle: 'Private holding'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -17,5 +18,13 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Fira+Mono\:400,700`
+        ]
+      }
+    }
   ],
 }
