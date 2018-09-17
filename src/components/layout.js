@@ -41,7 +41,7 @@ const Layout = ({ children }) => (
             }}
           >
             {/* <div>{data.site.siteMetadata.title}</div> */}
-            <h1 style={{fontSize: '70px', fontWeight: 400}}>NORD<br/>HAUS</h1>
+            <h1 style={{fontSize: '70px', fontWeight: 400, textShadow: '2px 2px #ff0000'}}>NORD<br/>HAUS</h1>
             {/* {children} */}
           </div>
         </body>
